@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+</head>
+<body> <header> <h1>Curriculum</h1>
+        <nav> <ul>
+                <li><a href="#perfil"><b>Inicio</b></a></li>
+                <li><a href="#experiencia"><b>Experiencia</b></a></li>
+                <li><a href="#contacto"><b>Contacto</b></a></li>
+            </ul>
+        </nav>
+    </header>   
+
+    <main> <table width="100%" style="vertical-align: top;">
+        <tr>
+            <td width="40%">
+                <section id="perfil">
+                    <img src="images/Yo.jpg" alt="Foto de Héctor Jarque" width="150">
+                    <h2>Héctor Jarque García</h2>
+                    <p>Segundo año de <b>DAW</b> (Desarrollo de Aplicaciones Web)</p>
+                </section>
+            </td>
+
+            <td width="60%">
+                <section id="experiencia">
+                    <h2>Experiencia laboral</h2>
+        
+                    <article>
+                        <h3>Prácticas de 1º de DAW</h3>
+                        <ul>
+                            <li>Desarrollo de aplicaciones web con <strong>HTML</strong>, <strong>CSS</strong> y <strong>JavaScript</strong></li>
+                            <li>Programación backend en <strong>Java</strong></li>
+                            <li>Experiencia en otras tecnologías como <strong>SQL</strong>, <strong>MongoDB</strong> o <strong>Python</strong></li>
+                        </ul>
+                    </article>
+        
+                    <article>
+                        <h3>Federació de Triatló de la Comunitat Valenciana (FTCV)</h3>
+                        <ul>
+                            <li>Atención al público durante eventos</li>
+                            <li>Logística y montaje de circuitos</li>
+                            <li>Gestión de ventas de chips y alimentos</li>
+                        </ul>
+                    </article>
+                </section>
+            </td>
+        </tr>
+    </table>
+
+    <section id="social">
+        <h2>Mis redes sociales</h2>
+        <div>
+            <a href="https://es.linkedin.com/in/hector-jarque-developer">
+                <img src="images/Linkedin.png" alt="Logotipo de LinkedIn" width="24"> LinkedIn
+            </a>
+            <a href="https://github.com/HectorJarque">
+                <img src="images/Github.png" alt="Logotipo de GitHub" width="24"> GitHub
+            </a>
+        </div>
+    </section>
+
+</main>
+
+    <footer id="contacto"> <h2>Contacto</h2>
+        <address> +34 661 548 454<br>
+            curriculum@practica.com
+        </address>
+
+        <form action="mailto:curriculum@practica.com" method="post" enctype="text/plain"> 
+            
+            <p>
+                <label for="nombre">Tu nombre:</label><br>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+            </p>
+            
+            <p>
+                <label for="email">Tu email:</label><br>
+                <input type="email" id="email" name="email" placeholder="Tu email" required>
+            </p>
+            
+            <p>
+                <label for="mensaje">Tu mensaje:</label><br>
+                <textarea id="mensaje" name="mensaje" placeholder="Tu mensaje" required></textarea>
+            </p>
+            
+            <p>
+                <button type="submit">Envía tu mensaje</button>
+            </p>
+        </form>
+    </footer>
+
+</body>
+</html>
